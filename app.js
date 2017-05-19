@@ -1,3 +1,4 @@
+// BasicCard constructor, with scope safe constructor
 function BasicCard(front, back) {
     if (this instanceof BasicCard) {
         this.front = front;
@@ -6,13 +7,12 @@ function BasicCard(front, back) {
     else {
         return new BasicCard(front, back);
     }
-
-    this.printInfo = function() {
-        console.log("Front: " + this.front + "Back: " + this.back);
-    };
 }
 
+// ClozeCard constructor, with scope safe constructor
 function ClozeCard(fullText, cloze){
+    
+    // Checks if cloze is in fullText
     if(fullText.indexOf(cloze) === -1){
         console.log("Sorry - that cloze deletion is not part of your text. Please try again.");
         return;
@@ -27,6 +27,7 @@ function ClozeCard(fullText, cloze){
     }
 }
 
+// Constructs a new BasicCard
 var firstPresident = new BasicCard(
     "Who was the first president of the United States?", "George Washington");
 
