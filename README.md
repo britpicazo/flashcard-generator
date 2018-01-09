@@ -12,11 +12,6 @@ The backend will essentially constitute an API that allows users to create two t
 
 2. **Cloze-Deleted** flashcards, which present _partial_ text (_"... was the first president of the United States."_), and the full text when the user requests it (_"George Washington was the first president of the United States."_)
 
-### Getting Started
-
-
-
-
 ### Built With
 
 * JavaScript
