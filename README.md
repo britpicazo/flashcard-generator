@@ -2,7 +2,7 @@
 
 ### Houston Coding Boot Camp - Week 11 Assignment
 
-Instructions: 
+**Instructions:**
 
 In this week's assignment, you will create the backend for a basic flashcard application.
 
