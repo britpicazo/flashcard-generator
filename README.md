@@ -14,18 +14,10 @@ The backend will essentially constitute an API that allows users to create two t
 
 ### Getting Started
 
-Here's a preview of the game:
 
-![](https://media.giphy.com/media/l1J9QShiGLpcNokWk/giphy.gif "gif")
-
-Click on the link to play!  
-https://britpicazo.github.io/TriviaGame/
 
 
 ### Built With
 
-* HTML5
-* CSS3
 * JavaScript
-* jQuery
-* Bootstrap
+* Node.js
